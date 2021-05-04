@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jardelgoncalves/react-clean-architecture/issues"
   },
-  "homepage": "https://github.com/jardelgoncalves/react-clean-architecture#readme"
+  "homepage": "https://github.com/jardelgoncalves/react-clean-architecture#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.1.0"
+  }
 }
