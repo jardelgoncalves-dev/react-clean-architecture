@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "prepare": "husky install",
+    "test": "jest --passWithNoTests",
+    "test:watch": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTest",
+    "test:ci": "npm test -- --coverage",
+    "lint-staged": "lint-staged"
   },
   "repository": {
     "type": "git",
